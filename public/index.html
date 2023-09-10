@@ -3,38 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- This is an A11y Change -->
-    <title aria-label="Personal Budget">Personal Budget </title>
+    <title>Personal Budget</title>
     <meta name="description" content="A free personal budger app">
     <meta name="keywords" content="app free budget finance">
-    <!-- This is an SEO Change -->
-    <meta name="author" content="Fabio Nolasco">
-    <!-- This is an SEO Change -->
-    <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
+<a href="#main" class="skip">Skip to content</a>
 
-    <!-- This is an A11y Change -->
-    <nav aria-label="Main navigation">
-      <!-- This is an A11y Change -->
-      <a href="#main" >Skip to content</a>
+    <nav>
         <ul>
             <li><a href="/">Home</a></li>
-            <!-- This is an SEO Change -->
-            <li><a href="/about.html" title="More about Personal Budget App">About</a></li>
-            <!-- This is an A11y Change -->
-            <li><a href="/login.html" aria-label="Login to your account">Login</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/login.html">Login</a></li>
             <li><a href="https://google.com">Google</a></li>
         </ul>
     </nav>
-    <!-- This is a Semantic HTML Change -->
-    <header class="hero">
+
+    <div class="hero">
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
-    </header>
+    </div>
+
     <main class="center" id="main">
 
         <div class="page-area">
@@ -97,12 +89,9 @@
             </article>
     
             <article>
-                <h1>Chart"</h1>
+                <h1>Chart</h1>
                 <p>
-                  <figure>
                     <canvas id="myChart" width="400" height="400"></canvas>
-                    <figcaption>Chart illustrating budget data</figcaption>
-                  </figure>
                 </p>
             </article>
 
@@ -111,19 +100,8 @@
     </main>
 
     <footer class="bottom">
-      <div class="center">
-      <!-- This is a Semantic HTML Change -->
-      <mark>All rights reserved &copy; Fabio Nolasco</mark>
-      <br><br>
-      <!-- This is a Semantic HTML Change -->
-      <details>
-        <summary>About Personal Budget App</summary>
-        <p>
-          The Personal Budget app is designed to help you manage your finances effectively.
-          Whether you need to track your expenses, set budget goals, or receive alerts when you
-          approach your spending limits, this app has you covered.
-        </p>
-      </details>
+        <div class="center">
+            All rights reserved &copy; Fabio Nolasco
         </div>
     </footer>
 
